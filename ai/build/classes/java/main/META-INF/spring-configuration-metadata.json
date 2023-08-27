@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "spring.data.mongodb",
+      "type": "com.ai.configuration.CustomMongoProperties",
+      "sourceType": "com.ai.configuration.CustomMongoProperties"
+    },
+    {
+      "name": "spring.r2dbc",
+      "type": "com.ai.configuration.CustomR2bcProperties",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.data.mongodb.reactive",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.ai.configuration.CustomMongoProperties"
+    },
+    {
+      "name": "spring.r2dbc.database",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    },
+    {
+      "name": "spring.r2dbc.host",
+      "type": "java.lang.String",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    },
+    {
+      "name": "spring.r2dbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    },
+    {
+      "name": "spring.r2dbc.port",
+      "type": "java.lang.String",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    },
+    {
+      "name": "spring.r2dbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    },
+    {
+      "name": "spring.r2dbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.ai.configuration.CustomR2bcProperties"
+    }
+  ],
+  "hints": []
+}
